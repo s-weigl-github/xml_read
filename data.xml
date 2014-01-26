@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <liste rt="22">
 	<person>
-		<name>Sebastian</name>
-		<surname>Weigl</surname>
+		<name>Adam</name>
+		<surname>Stein</surname>
 		<age>32</age>
 		<rt>22</rt>
-		<bday>06.10.1981</bday>
+		<bday>17.04.1981</bday>
 		<id>0001</id>
 		<gender>male</gender>
 		<height>1.70</height>
