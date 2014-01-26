@@ -8,12 +8,10 @@ from xml.etree.ElementTree import parse
 import time, datetime
 import webbrowser
 
-utc_datetime = datetime.datetime.now()
-s = utc_datetime.strftime("%d%m%Y")
+dt = datetime.datetime.now()
+s = dt.strftime("%d.%m.")
 
 ag = int(25)
-
-#bday =
 
 doc = parse('data.xml')
 for person in doc.findall('person'):
