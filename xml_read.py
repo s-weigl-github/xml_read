@@ -6,7 +6,7 @@ import webbrowser
 utc_datetime = datetime.datetime.now()
 s = utc_datetime.strftime("%d%m%Y")
 
-ag = int(40)
+ag = int(25)
 
 #bday =
 
