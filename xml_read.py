@@ -1,3 +1,8 @@
+#########################
+###  read and compute datasets from a xml file
+###  Sebastian Weigl
+###  ver.01 - 26.01.2014
+#########################
 import urllib.request
 from xml.etree.ElementTree import parse
 import time, datetime
@@ -20,4 +25,4 @@ for person in doc.findall('person'):
       pid = person.findtext('id')
       gender = person.findtext('gender')
       if gender.startswith('male'):
-        print(bday, gender, age, name, surname, pid)
+        print(name, surname, pid,'\n', bday, age, gender)
