@@ -11,8 +11,6 @@ import webbrowser
 dt = datetime.datetime.now()
 s = dt.strftime("%d.%m.")
 
-ag = int(25)
-
 doc = parse('daten.swxml')
 for person in doc.findall('person'):
   bday = person.findtext('bday')
@@ -20,5 +18,5 @@ for person in doc.findall('person'):
   name = person.findtext('name')
   surname = person.findtext('surname')
   gender = person.findtext('gender')
-  if gender.startswith('m'):
+  if gender.startswith('f') or gender.startswith('m'):
     print(surname+', '+name,'| ID', pid,'\n', bday+' - '+gender)

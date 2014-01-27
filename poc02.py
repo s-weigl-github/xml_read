@@ -6,4 +6,6 @@ atc_dt = datetime.datetime(2014, 1, 26)
 e = atc_dt.strftime('%d.%m.')
 
 if s == e:
-  print("beide daten sind gleich")
+  print("both data sets are equal")
+else:
+  print("data set is not equal")
