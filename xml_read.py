@@ -20,5 +20,5 @@ for person in doc.findall('person'):
   name = person.findtext('name')
   surname = person.findtext('surname')
   gender = person.findtext('gender')
-  if gender.startswith('f'):
-    print(name, surname, pid,'\n', bday, gender)
+  if gender.startswith('m'):
+    print(surname+', '+name,'| ID', pid,'\n', bday+' - '+gender)
