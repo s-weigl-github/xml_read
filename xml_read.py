@@ -1,7 +1,7 @@
 #########################
 ###  read and compute datasets from a xml file
 ###  Sebastian Weigl
-###  ver.01 - 26.01.2014
+###  ver.02 - 27.01.2014
 #########################
 import urllib.request
 from xml.etree.ElementTree import parse
@@ -13,14 +13,12 @@ s = dt.strftime("%d.%m.")
 
 ag = int(25)
 
-doc = parse('data.xml')
+doc = parse('daten.swxml')
 for person in doc.findall('person'):
-    age = int(person.findtext('age'))
-    if age >= ag:
-      bday = person.findtext('bday')
-      name = person.findtext('name')
-      surname = person.findtext('surname')
-      pid = person.findtext('id')
-      gender = person.findtext('gender')
-      if gender.startswith('male'):
-        print(name, surname, pid,'\n', bday, age, gender)
+  bday = person.findtext('bday')
+  pid = person.findtext('id')
+  name = person.findtext('name')
+  surname = person.findtext('surname')
+  gender = person.findtext('gender')
+  if gender.startswith('f'):
+    print(name, surname, pid,'\n', bday, gender)
