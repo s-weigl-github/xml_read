@@ -8,7 +8,7 @@ from xml.etree.ElementTree import parse
 import time, datetime
 import webbrowser
 
-dt = datetime.datetime(2014, 10, 6)
+dt = datetime.datetime.now()
 s = dt.strftime("%d")
 t = dt.strftime("%m")
 u = dt.strftime("%Y")
