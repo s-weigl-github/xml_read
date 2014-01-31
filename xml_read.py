@@ -1,7 +1,7 @@
 #########################
 ###  read and compute datasets from a xml file
 ###  Sebastian Weigl
-###  ver.07 - 31.01.2014
+###  ver.08 - 01.02.2014
 #########################
 import urllib.request
 from xml.etree.ElementTree import parse
@@ -38,7 +38,9 @@ for person in doc.findall('person'):
     age = u - ye_ar
     if u - ye_ar == age:
       age = str(age)
-      print("Geburtstag - ist Heute "+age+" geworden ", da_y+'.'+mon_th+'. -', name)
+      da_y = str(da_y)
+      mon_th = str(mon_th)
+      print("Geburtstag - "+name+" ist Heute "+age+" geworden ", da_y+'.'+mon_th+'. -', name)
   elif da_y+1 == s and mon_th == t or mon_th+1 == t:
     age = u - ye_ar
     if u - ye_ar == age:
