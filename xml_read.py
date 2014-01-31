@@ -1,7 +1,7 @@
 #########################
 ###  read and compute datasets from a xml file
 ###  Sebastian Weigl
-###  ver.06 beta - 31.01.2014
+###  ver.07 - 31.01.2014
 #########################
 import urllib.request
 from xml.etree.ElementTree import parse
@@ -10,7 +10,9 @@ import webbrowser
 
 dt = datetime.datetime.now()
 s = dt.strftime("%d")
+s = int(s)
 t = dt.strftime("%m")
+t = int(t)
 u = dt.strftime("%Y")
 u = int(u)
 
@@ -37,16 +39,18 @@ for person in doc.findall('person'):
     if u - ye_ar == age:
       age = str(age)
       print("Geburtstag - ist Heute "+age+" geworden ", da_y+'.'+mon_th+'. -', name)
-  elif da_y+1 == s and mon_th == t:
+  elif da_y+1 == s and mon_th == t or mon_th+1 == t:
     age = u - ye_ar
     if u - ye_ar == age:
       age = str(age)
-      print("Geburtstag verpasst")
-  elif da_y-1 == s and mon_th == t:
+      print("Geburtstag von "+name+" verpasst")
+  elif da_y-1 == s and mon_th == t or mon_th-1 == t:
     age = u - ye_ar
     if u - ye_ar == age:
       age = str(age)
-      print(name+" hat morgen Geburtstag und wird"+age)
+      da_y = str(da_y)
+      mon_th = str(mon_th)
+      print(" - "+name, surname+" hat morgen Geburtstag und wird "+age+" - "+da_y+'.'+mon_th+'.')
   else:
     wert = wert + 1
     print(wert, "dauert noch")
