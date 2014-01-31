@@ -21,7 +21,9 @@ ye_ar = None
 doc = parse('daten.swxml')
 for person in doc.findall('person'):
   da_y = person.findtext('da_y')
+  da_y = int(da_y)
   mon_th = person.findtext('mon_th')
+  mon_th = int(mon_th)
   ye_ar = person.findtext('ye_ar')
   ye_ar = int(ye_ar)
   pid = person.findtext('id')
@@ -35,6 +37,16 @@ for person in doc.findall('person'):
     if u - ye_ar == age:
       age = str(age)
       print("Geburtstag - ist Heute "+age+" geworden ", da_y+'.'+mon_th+'. -', name)
+  elif da_y+1 == s and mon_th == t:
+    age = u - ye_ar
+    if u - ye_ar == age:
+      age = str(age)
+      print("Geburtstag verpasst")
+  elif da_y-1 == s and mon_th == t:
+    age = u - ye_ar
+    if u - ye_ar == age:
+      age = str(age)
+      print(name+" hat morgen Geburtstag und wird"+age)
   else:
     wert = wert + 1
     print(wert, "dauert noch")
