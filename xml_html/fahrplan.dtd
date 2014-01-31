@@ -1,0 +1,12 @@
+<!ELEMENT fahrplan  (bahnhof)>
+<!ELEMENT bahnhof   (name,(ereignis)*)>
+<!ELEMENT name      (#PCDATA)>
+<!ELEMENT ereignis  (abfahrt | ankunft)>
+<!ELEMENT abfahrt   (zeit,zugtyp,zugnr,route)>
+<!ELEMENT ankunft   (zeit,zugtyp,zugnr,route)>
+<!ELEMENT zeit      (#PCDATA)>
+<!ELEMENT zugtyp    (#PCDATA)>
+<!ELEMENT zugnr     (#PCDATA)>
+<!ELEMENT route     (#PCDATA | start | ziel)*>
+<!ELEMENT start     (#PCDATA)>
+<!ELEMENT ziel      (#PCDATA)>

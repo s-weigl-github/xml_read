@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE fahrplan SYSTEM "fahrplan.dtd">
+<?xml-stylesheet type="text/css" href="fahrplan.css" ?>
+<fahrplan>
+<bahnhof>
+ <name>Frankfurt HBF</name>
+  <ereignis>
+   <abfahrt>
+    <zeit>10.24</zeit>
+    <zugtyp class="ic">IC</zugtyp>
+    <zugnr>234</zugnr>
+    <route>N&#252;rnberg 11.48, Regensburg 12.50, Passau 13.38, Linz 14.22
+     <ziel>Wien West an 17.55</ziel>
+    </route>
+   </abfahrt>
+  </ereignis>
+  <ereignis>
+   <ankunft>
+    <zeit>10.36</zeit>
+    <zugtyp>RB</zugtyp>
+    <zugnr>20392</zugnr>
+    <route><start>Koblenz ab 08.57</start>
+     Bacharach 09.16, St. Goar 09.42, Mainz 10.05, Ffm Flughafen 10.25
+    </route>
+   </ankunft>
+  </ereignis>
+  <ereignis>
+   <abfahrt>
+    <zeit>10.39</zeit>
+    <zugtyp>RSB</zugtyp>
+    <zugnr>58483</zugnr>
+    <route>Offenbach 10.52, Hanau 11.01
+     <ziel>Aschaffenburg an 11.27</ziel>
+    </route>
+   </abfahrt>
+  </ereignis>
+  <ereignis>
+   <ankunft>
+    <zeit>10.40</zeit>
+    <zugtyp class="ice">ICE</zugtyp>
+    <zugnr>23</zugnr>
+    <route><start>Hamburg ab 06.55</start>
+     Hannover 08.05, G&#246;ttingen 08.43, Kassel 09.01, Fulda 09.43
+    </route>
+   </ankunft>
+  </ereignis>
+</bahnhof>
+<bahnhof1>
+ <name>Berlin HBF</name>
+  <ereignis>
+   <abfahrt>
+    <zeit>10.30</zeit>
+    <zugtyp class="ic">IC</zugtyp>
+    <zugnr>233</zugnr>
+    <route>N&#252;rnberg 11.50, Regensburg 12.59, Passau 13.56, Linz 14.35
+     <ziel>Wien West an 18.15</ziel>
+    </route>
+   </abfahrt>
+  </ereignis>
+</bahnhof1>
+</fahrplan>
