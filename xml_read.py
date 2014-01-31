@@ -1,7 +1,7 @@
 #########################
 ###  read and compute datasets from a xml file
 ###  Sebastian Weigl
-###  ver.05 - 30.01.2014
+###  ver.06 beta - 31.01.2014
 #########################
 import urllib.request
 from xml.etree.ElementTree import parse
