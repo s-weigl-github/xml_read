@@ -3,7 +3,6 @@ simple Python progs
 
 some python scripts to improve my skills
 
-<!--
 I don't know yet!
 -------
 
@@ -79,7 +78,7 @@ Nothing yet!
 3. and again
 4. and again
 5. and again
-6. and ... -->
+6. and ...
 
 
 [link]: http://techblog.linux-himmel.org/wordpress/
