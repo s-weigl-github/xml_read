@@ -1,7 +1,7 @@
 #########################
 ###  read and compute datasets from a xml file
 ###  Sebastian Weigl
-###  ver.02 alpha - 08.02.2014
+###  ver.03 - 16.02.2014
 #########################
 import urllib.request
 from xml.etree.ElementTree import parse
@@ -16,11 +16,11 @@ for stadt in doc.findall('stadt'):
   ew = stadt.findtext('einwohner')
   ew = int(ew)
 
-##if ew < wert:
-##  print(sn, ew, pid, hs)
-##else:
-##  print("fehler")
+  if ew < wert:
+    print(sn, ew, pid, hs)
+  else:
+    print("fehler")
 
-print(sn, pid, hs, ew)
+## print(sn, pid, hs, ew)
 
 ## E-o-F
