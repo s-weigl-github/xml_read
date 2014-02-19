@@ -1,0 +1,12 @@
+<liste>
+	<person>
+		<field1 name="node1">some value1</field1>
+		<field2 name="node2">some value2</field2>
+		<field3 name="node3">some value3</field3>
+		<field4 name="node4">some value4</field4>
+		<field5 name="node5">some value5</field5>
+		<field6 name="node6">some value6</field6>
+		<field7 name="node7">some value7</field7>
+		<field8 name="node8">some value8</field8>
+	</person>
+</liste>
