@@ -7,7 +7,8 @@ Type = 70
 Mount = 80
 t = 0
 
-templ = "%-10s %8s %8s %8s %5s%% %9s  %s"
+temp2 = "%10s"
+templ = "%10s %8s %8s %8s %5s %% %9s €  %5s"
 print(templ % ("Device", "Total", "Used", "Free", "Use ", "Type", "Mount"))
 while t < 30:
   print(templ % (Device, Total, Used, Free, Use, Type, Mount))
@@ -19,3 +20,5 @@ while t < 30:
   Use = Use+10
   Type = Type+10
   Mount = Mount+10
+print(temp2 % ("Done!"))
+## E-o-F
