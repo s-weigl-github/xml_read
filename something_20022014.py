@@ -7,7 +7,7 @@ t = 0
 ##temp2 = "%50s"
 templ = "%10s %15s %8s %% %15s €"
 print(templ % ("Anzahl", "Einzel Preis", "MWST", "Gesamt Preis"))
-while t < 55:
+while t < 58:
   t = t + 1
   Anzahl = Anzahl+10
   Aufs = Anzahl*Einzel
