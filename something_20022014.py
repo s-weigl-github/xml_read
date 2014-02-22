@@ -1,3 +1,5 @@
+import os
+
 Anzahl = 0
 Einzel = 30
 MWST = 0.19
@@ -13,5 +15,12 @@ while t < 56:
   Aufs = Anzahl*Einzel
   Gesamt = Aufs+Aufs*MWST
   print(templ % (Anzahl, Einzel, MWST, Gesamt))
+  ausgabe = (templ % (Anzahl, Einzel, MWST, Gesamt))
+
+  text = open('berechnung.txt', 'w')
+  text.write(ausgabe)
+  text.close()
+  
 print("-------------------", temp2 % ("Done!"), "-------------------")
+
 ## E-o-F
