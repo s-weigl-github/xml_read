@@ -1,7 +1,7 @@
 #####################################
 ###  compute and write to file
 ###  Sebastian Weigl
-###  ver.1 - 22.02.2014
+###  ver. 1.2 - 22.02.2014
 #####################################
 import os
 
@@ -35,6 +35,7 @@ while t < numb:
   Anzahl = Anzahl+10
   Aufs = Anzahl*Einzel
   Gesamt = Aufs+Aufs*MWST
+  Gesamt = '{:,}'.format(Gesamt)
   print(templ % (Anzahl, Einzel, MWST, Gesamt))
   ausgabe = str(templ % (Anzahl, Einzel, MWST, Gesamt)+'\n')
   ptf()
