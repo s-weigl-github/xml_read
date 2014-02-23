@@ -10,7 +10,7 @@ Einzel = 30
 MWST = 0.19
 Gesamt = 0
 t = 0
-numb = 500 #numb def how often the loop will be execute
+numb = 50 #numb def how often the loop will be execute
 
 open('berechnung.txt','w').close() #open a file and close it right a way and leave it empty
 
