@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<geobefehle>
+	<weg>
+		<g-code>G00</g-code>
+		<g-code>G01</g-code>
+		<g-code>G02</g-code>
+		<g-code>G03</g-code>
+		<g-code>G04</g-code>
+		<g-code>G09</g-code>
+		<g-code>G17</g-code>
+		<g-code>G18</g-code>
+		<g-code>G19</g-code>
+		<g-code>G33</g-code>
+		<g-code>G40</g-code>
+		<g-code>G41</g-code>
+		<g-code>G42</g-code>
+		<g-code>G</g-code>
+	</weg>
+</geobefehle>
+<maschinenbefehlen>
+	<m>
+	</m>
+</maschinenbefehlen>
