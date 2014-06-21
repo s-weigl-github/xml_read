@@ -33,7 +33,7 @@ for zahlen in doc.findall('zahlen'):
     lotto()
 
 ## E-o-F    
-##
+
 ##  if gezogen > 471:
 ##    print(gezogen, kugelwert)
 ##    print("die am meist gezogenen lottozahlen")
