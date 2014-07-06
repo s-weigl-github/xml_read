@@ -15,11 +15,11 @@ def lotto():
   count = 6
   while wert < count:
     wert = wert + 1
-    wahl = random.choice([6,11,22,26,31,32,33,38,43,49])
-#    wahl = random.choice([3,6,9,11,17,22,25,26,31,32,33,36,38,42,43,49])
+#    wahl = random.choice([6,11,22,26,31,32,33,38,43,49])
+    wahl = random.choice([3,6,9,11,17,22,25,26,31,32,33,36,38,42,43,49])
     print(" ", wahl)
   print("\n-------------------\n")
-  print("Done!")
+  print("Done!\n")
 
 doc = parse('lottozahlen.xml')
 for zahlen in doc.findall('zahlen'):
@@ -35,6 +35,6 @@ for zahlen in doc.findall('zahlen'):
 
 ## E-o-F    
 
-##  if gezogen > 476:
-##    print(gezogen, kugelwert)
+##  if gezogen > 480:
+##    print(gezogen,"-", kugelwert)
 ##    print("die am meist gezogenen lottozahlen")
