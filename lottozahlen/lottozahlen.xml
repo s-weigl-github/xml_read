@@ -14,17 +14,17 @@
 	<zahlen>
 		<id>003</id>
 		<numb>3</numb>
-		<picked>473</picked>
+		<picked>474</picked>
 	</zahlen>
 	<zahlen>
 		<id>004</id>
 		<numb>4</numb>
-		<picked>466</picked>
+		<picked>467</picked>
 	</zahlen>
 	<zahlen>
 		<id>005</id>
 		<numb>5</numb>
-		<picked>457</picked>
+		<picked>458</picked>
 	</zahlen>
 	<zahlen>
 		<id>006</id>
@@ -85,12 +85,12 @@
 	<zahlen>
 		<id>017</id>
 		<numb>17</numb>
-		<picked>473</picked>
+		<picked>474</picked>
 	</zahlen>
 	<zahlen>
 		<id>018</id>
 		<numb>18</numb>
-		<picked>448</picked>
+		<picked>449</picked>
 	</zahlen>
 	<zahlen>
 		<id>019</id>
@@ -126,12 +126,12 @@
 	<zahlen>
 		<id>025</id>
 		<numb>25</numb>
-		<picked>473</picked>
+		<picked>474</picked>
 	</zahlen>
 	<zahlen>
 		<id>026</id>
 		<numb>26</numb>
-		<picked>496</picked>
+		<picked>498</picked>
 	</zahlen>
 	<zahlen>
 		<id>027</id>
@@ -146,7 +146,7 @@
 	<zahlen>
 		<id>029</id>
 		<numb>29</numb>
-		<picked>449</picked>
+		<picked>450</picked>
 	</zahlen>
 <!-- dreiziger werte -->
 	<zahlen>
@@ -187,7 +187,7 @@
 	<zahlen>
 		<id>037</id>
 		<numb>37</numb>
-		<picked>452</picked>
+		<picked>453</picked>
 	</zahlen>
 	<zahlen>
 		<id>038</id>
@@ -197,7 +197,7 @@
 	<zahlen>
 		<id>039</id>
 		<numb>39</numb>
-		<picked>466</picked>
+		<picked>467</picked>
 	</zahlen>
 <!-- vierziger werte -->
 	<zahlen>
@@ -228,7 +228,7 @@
 	<zahlen>
 		<id>045</id>
 		<numb>45</numb>
-		<picked>415</picked>
+		<picked>416</picked>
 	</zahlen>
 	<zahlen>
 		<id>046</id>
