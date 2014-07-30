@@ -44,28 +44,28 @@
 	<zahlen>
 		<id>009</id>
 		<numb>9</numb>
-		<picked>475</picked>
+		<picked>476</picked>
 	</zahlen>
 <!-- zehner werte -->
 	<zahlen>
 		<id>010</id>
 		<numb>10</numb>
-		<picked>465</picked>
+		<picked>466</picked>
 	</zahlen>
 	<zahlen>
 		<id>011</id>
 		<numb>11</numb>
-		<picked>482</picked>
+		<picked>483</picked>
 	</zahlen>
 	<zahlen>
 		<id>012</id>
 		<numb>12</numb>
-		<picked>446</picked>
+		<picked>447</picked>
 	</zahlen>
 	<zahlen>
 		<id>013</id>
 		<numb>13</numb>
-		<picked>404</picked>
+		<picked>405</picked>
 	</zahlen>
 	<zahlen>
 		<id>014</id>
@@ -187,7 +187,7 @@
 	<zahlen>
 		<id>037</id>
 		<numb>37</numb>
-		<picked>453</picked>
+		<picked>454</picked>
 	</zahlen>
 	<zahlen>
 		<id>038</id>
