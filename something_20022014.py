@@ -6,11 +6,11 @@
 import os
 
 Anzahl = 0
-Einzel = 30
+Einzel = 5.70
 MWST = 0.19
 Gesamt = 0
 t = 0
-numb = 50 #numb def how often the loop will be execute
+numb = 25 #numb def how often the loop will be execute
 
 #open a file and close it right a way and leave it empty
 open('berechnung.txt','w').close()
